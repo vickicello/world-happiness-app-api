@@ -35,7 +35,6 @@ ActiveRecord::Schema.define(version: 2019_02_17_211731) do
     t.float "dystopia_residual"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "img_url", default: ""
   end
 
 end

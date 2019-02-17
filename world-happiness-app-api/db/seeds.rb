@@ -13,7 +13,8 @@ COLUMNS = [
   'freedom',
   'generosity',
   'trust',
-  'dystopia_residual'
+  'dystopia_residual',
+  'img_url'
 ]
 
 
