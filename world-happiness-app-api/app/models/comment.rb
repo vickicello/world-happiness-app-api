@@ -1,5 +1,5 @@
-class Comment < ApplicationRecord
-  belongs_to :country
+# class Comment < ApplicationRecord
+#   belongs_to :country
 
-  validates :content, :commentor, presence: true
-end
+#   validates :content, :commentor, presence: true
+# end
