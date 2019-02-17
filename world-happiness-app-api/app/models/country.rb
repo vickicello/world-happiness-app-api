@@ -1,9 +1,4 @@
 class Country < ApplicationRecord
-  # require 'csv'
-
-  # def self.import(file)
-  #   CSV.foreach(file.path, headers: true) do |row|
-  #     Country.create! row.to_hash
-  #   end
-  # end
+  has_many :comments
+  accepts_nested_atrributes_for :comments
 end

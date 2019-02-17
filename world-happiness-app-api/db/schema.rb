@@ -10,7 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_13_200411) do
+ActiveRecord::Schema.define(version: 2019_02_17_211731) do
+
+  create_table "comments", force: :cascade do |t|
+    t.text "content"
+    t.string "commentor"
+    t.integer "country_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "countries", force: :cascade do |t|
     t.string "country"
@@ -27,6 +35,7 @@ ActiveRecord::Schema.define(version: 2019_02_13_200411) do
     t.float "dystopia_residual"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "img_url", default: ""
   end
 
 end
