@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 2019_02_17_211731) do
   create_table "countries", force: :cascade do |t|
     t.string "country"
     t.integer "happiness_rank"
-    t.float "happiness_score"
+    t.decimal "happiness_score", precision: 4, scale: 3
     t.float "whisker_high"
     t.float "whisker_low"
     t.float "economy"
