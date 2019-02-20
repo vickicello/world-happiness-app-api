@@ -9,9 +9,8 @@ Requirements:
 
 TODO:
 --------------------
-1) Add comment column to country db
-2) Create comment model and/or user model?? Or should I do this in React only?
-
+1) Add comment model back in
+2) figure out how to render Comment association, GET and POST from API
 <!-- 3) Display list of countries on homepage using React
   a) use fetch() to get the info from Rails API -->
 3.5) Decouple App from Home page?? 
